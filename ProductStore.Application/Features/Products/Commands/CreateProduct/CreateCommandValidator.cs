@@ -14,6 +14,10 @@ namespace ProductStore.Application.Features.Products.Commands.CreateProduct
             RuleFor(p => p.Desciption)
                 .NotEmpty()
                 .NotNull();
+
+            RuleFor(p => p.CategoryId)
+                .NotEmpty()
+                .NotNull();
         }
     }
 }
