@@ -10,3 +10,4 @@
 - CQRS / Mediator Pattern using MediatR Library
 - CRUD Operations
 - Inverted Dependencies
+- Unit tests (XUnit)
